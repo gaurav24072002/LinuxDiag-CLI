@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtualenv
+.venv/
+
+# Local Claude session state (per-user, not part of the project)
+.claude/
+
+# Runtime output
+report.json
+*.log

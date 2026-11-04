@@ -1,0 +1,9 @@
+{
+  "path": "/var",
+  "f_frsize": 4096,
+  "f_blocks": 1000000,
+  "f_bfree": 50000,
+  "f_bavail": 40000,
+  "f_files": 100000,
+  "f_ffree": 5000
+}

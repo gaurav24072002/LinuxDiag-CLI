@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linuxdiag"
+version = "0.1.0"
+description = "Read-only Linux compute & storage diagnostics CLI (stdlib only)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "gaurav" }]
+keywords = ["linux", "diagnostics", "sre", "proc", "sre-interview"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Topic :: System :: Monitoring",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+linuxdiag = "linuxdiag.cli:main"
+
+[tool.setuptools]
+packages = ["linuxdiag"]
